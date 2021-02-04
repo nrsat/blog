@@ -1,0 +1,15 @@
+baseURL: https://nrsat.github.io/blog/
+languageCode: ja-jp
+relativeurls: true
+title: nrsat
+theme: hugo-theme-yinyang
+publishDir: docs
+author:
+  homepage: https://nrsat.github.io/blog/
+  name: nrsat
+params:
+  extraHead: ''
+  mainSections: posts
+  socials:
+    - link: https://nrsat.github.io/blog/
+      name: About

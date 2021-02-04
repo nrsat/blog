@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on nrsat</title>
+    <link>/categories/r/</link>
+    <description>Recent content in R on nrsat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 04 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>/posts/helloworld/</link>
+      <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/helloworld/</guid>
+      <description>プログラムを書いていて分からないことを、Stack Overflowなどで調べたものの、全く同じことを再度調べてしまうことが最近よくある。忘れないように調べたことをまとめておくためにこのブログを始めた。</description>
+    </item>
+    
+    <item>
+      <title>RNA-Seq without replication</title>
+      <link>/posts/rnaseq-noreplicate/</link>
+      <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/rnaseq-noreplicate/</guid>
+      <description>Replicateの無いRNA-SeqでDESeq2を使うには ここが参考になった（Bioconductor）。
+ “I’d recommend that you compute the vst() of the dataset and look at the large LFCs (difference between the two VST samples). I don’t think the pvalues were useful at all, hence the deprecation. I think the best we can do is output shrunken LFC (which here you can get by looking at difference between VST samples).”
+ 昔は1サンプルをReplicateとして取り扱うことが出来たらしいが、上記の通り統計学的な意味が無くDeprecateとなったらしい。</description>
+    </item>
+    
+  </channel>
+</rss>
